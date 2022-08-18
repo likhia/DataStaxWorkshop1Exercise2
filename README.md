@@ -12,7 +12,7 @@ Datastax provides database drivers in different programming languages (e.g. Java
 
 In this exercise,   you will be using both REST API to develop the REST services using Node JS in the following steps: 
 * Section A: Create User table in the same keyspace created in Hands-On Exercise (1).
-* Section B: Walkthrough the codes 
+* Section B: Walk through the codes 
 * Section C: Test the REST services
 
 This exercise is to show how to use REST API via Stargate in AstraDB.   Please note that this workshop is not to share how to create REST services with Node JS or coding best practices.
@@ -64,7 +64,7 @@ curl --request POST \
 10. Click on **CQL Console** tab.   Execute **use shiny;** and **describe user;** to verify the **User** table is created.    
 ![image](img/image7.png?raw=true)
 
-## Section B: Walkthrough the codes 
+## Section B: Walk through the codes 
 
 1. app.js contains the source codes for this application. 
 
