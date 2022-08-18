@@ -11,9 +11,9 @@ Datastax provides database drivers in different programming languages (e.g. Java
 ![image](img/image1.png?raw=true)
 
 In this exercise,   you will be using both REST API to develop the REST services using Node JS in the following steps: 
-(A) Create User table in the same keyspace created in Hands-On Exercise (1).
-(B) Walkthrough the codes 
-(C) Test the REST services
+* (A) Create User table in the same keyspace created in Hands-On Exercise (1).
+* (B) Walkthrough the codes 
+* (C) Test the REST services
 
 This exercise is to show how to use REST API via Stargate in AstraDB.   Please note that this workshop is not to share how to create REST services with Node JS or coding best practices.
 
@@ -22,9 +22,9 @@ This exercise is to show how to use REST API via Stargate in AstraDB.   Please n
 Hands-On Exercise (1) must be completed. 
 
 Libraries Required
-(1) express : Express.js, or simply Express, is a back end web application framework for Node.js
-(2) dotenv : Loads environment variables from .env file
-(3) axios : Axios is a promise-based HTTP Client for node.js and the browser. 
+* (1) express : Express.js, or simply Express, is a back end web application framework for Node.js
+* (2) dotenv : Loads environment variables from .env file
+* (3) axios : Axios is a promise-based HTTP Client for node.js and the browser. 
 
 The above libraries are already installed for this project. 
 
