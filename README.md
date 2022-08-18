@@ -223,7 +223,7 @@ app.put('/update', function(request, response) {
 4. To run,  type **node app.js**
 
 5. The application is running.   Click on **+** sign on top and select **bash**.    Execute the following commands in this new Terminal.    
-![image](img/image7.png?raw=true)
+![image](img/image8.png?raw=true)
 
 6. To create a new user,   execute the commands below. 
 ```copy
