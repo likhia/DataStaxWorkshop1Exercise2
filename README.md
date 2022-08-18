@@ -10,7 +10,7 @@ Datastax provides database drivers in different programming languages (e.g. Java
 
 ![image](img/image1.png?raw=true)
 
-In this exercise,   you will be using both REST API to develop the REST services using Node JS in the following steps: 
+In this exercise,   you will be using the REST API to develop the REST services using Node JS in the following steps: 
 * Section A: Create User table in the same keyspace created in Hands-On Exercise (1).
 * Section B: Walk through the codes 
 * Section C: Test the REST services
