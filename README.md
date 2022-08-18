@@ -216,35 +216,41 @@ app.put('/update', function(request, response) {
 
 ## Section D: Test the REST services
 
+1. Click on the icon below to access GitPod.   
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/likhia/DataStaxWorkshop1Exercise2.git)
+   
+ℹ️ _It may take minutes (approx. 3-5) for GitPod to fully initialize._
 
-To run,  use node app.js
+2. In the terminal,  type **gp url 8081** to get the URL to test your application. 
 
-To create a new user,   execute the commands below. 
+3. To run,  type **node app.js**
+
+4. To create a new user,   execute the commands below. 
 ```copy
 curl --request POST \
-     --url http://localhost:8081/add \
+     --url http://<url>:8081/add \
      --header 'Accept: application/json' \
      --header 'Content-Type: application/json' \
      --data '{"id":"User1", "name" :"User 1", "dept": "Department 1"}'
 ```
 
-To retrieve the newly created user, execute the commands below.  
+5. To retrieve the newly created user, execute the commands below.  
 ```copy
-curl "http://localhost:8081/get?id=User1"
+curl "http://<url>:8081/get?id=User1"
 ```
 
-To update the user, execute the commands below. 
+6. To update the user, execute the commands below. 
 ```copy
 curl --request PUT \
-     --url http://localhost:8081/update \
+     --url http://<url>:8081/update \
      --header 'Accept: application/json' \
      --header 'Content-Type: application/json' \
      --data '{"id":"User1", "name" :"Chloe", "dept": "HR"}'
 ```
 
-To delete the user, execute the commands below.
+7. To delete the user, execute the commands below.
 ```copy 
 curl --request DELETE \
-     --url "http://localhost:8081/delete?id=User1"
+     --url "http://<url>:8081/delete?id=User1"
 ```     
