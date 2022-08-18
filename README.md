@@ -11,9 +11,9 @@ Datastax provides database drivers in different programming languages (e.g. Java
 ![image](img/image1.png?raw=true)
 
 In this exercise,   you will be using both REST API to develop the REST services using Node JS in the following steps: 
-* (A) Create User table in the same keyspace created in Hands-On Exercise (1).
-* (B) Walkthrough the codes 
-* (C) Test the REST services
+* Section A: Create User table in the same keyspace created in Hands-On Exercise (1).
+* Section B: Walkthrough the codes 
+* Section C: Test the REST services
 
 This exercise is to show how to use REST API via Stargate in AstraDB.   Please note that this workshop is not to share how to create REST services with Node JS or coding best practices.
 
@@ -22,9 +22,9 @@ This exercise is to show how to use REST API via Stargate in AstraDB.   Please n
 Hands-On Exercise (1) must be completed. 
 
 Libraries Required
-* (1) express : Express.js, or simply Express, is a back end web application framework for Node.js
-* (2) dotenv : Loads environment variables from .env file
-* (3) axios : Axios is a promise-based HTTP Client for node.js and the browser. 
+* express : Express.js, or simply Express, is a back end web application framework for Node.js
+* dotenv : Loads environment variables from .env file
+* axios : Axios is a promise-based HTTP Client for node.js and the browser. 
 
 The above libraries are already installed for this project. 
 
@@ -218,11 +218,14 @@ app.put('/update', function(request, response) {
 
 2. Create a new file named as **.env** under the root folder.   Copy and paste the properties from .env.example and set its value from the Console tab and also the token from the generated token. 
 
-3. These properties will be used by this application to connect to Astra DB.  
+3. These properties will be used by this application to connect to Astra DB.   
 
 4. To run,  type **node app.js**
 
-5. To create a new user,   execute the commands below. 
+5. The application is running.   Click on **+** sign on top and select **bash**.    Execute the following commands in this new Terminal.    
+![image](img/image7.png?raw=true)
+
+6. To create a new user,   execute the commands below. 
 ```copy
 curl --request POST \
      --url http://localhost:8081/add \
